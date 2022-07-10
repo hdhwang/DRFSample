@@ -3,5 +3,6 @@ from django.contrib import admin
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('example/', include('example.urls'))
+    path('example/', include('example.urls')),
+    path('todo/', include('todo.urls')),
 ]
